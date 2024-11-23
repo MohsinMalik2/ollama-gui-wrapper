@@ -13,6 +13,7 @@ This is a GUI-based application that allows users to interact with locally insta
 - **Python**: Version 3.7 or later.
 - **ollama**: Installed and configured on your system.
 - **Python Libraries**: `tkinter`, `subprocess`, and `threading` (all are part of Python's standard library).
+- **Pillow**: Version 8.0.0 or later.
 - **Icon File**: `chatbot.ico` in the project directory.
 
 ## Setup and Installation
@@ -47,6 +48,7 @@ This is a GUI-based application that allows users to interact with locally insta
     Launch the app by running:
 
     ```bash
+    pip install -r requirements.txt
     python app.py
     ```
     
@@ -56,5 +58,4 @@ This is a GUI-based application that allows users to interact with locally insta
     2. Type your message in the input box and press Send.
     3. View the conversation in the chat display area.
 
-
-    
+Or just download the .exe file
