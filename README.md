@@ -1,13 +1,12 @@
-# AI Model Chat Application
+# Ollama GUI Wrapper
 
-This is a GUI-based chatbot application that allows users to interact with locally installed AI models via the `ollama` tool. It provides a clean interface for selecting a model, sending messages, and receiving responses.
+This is a GUI-based application that allows users to interact with locally installed AI models via the `ollama` tool. It provides a clean interface for selecting a model, sending messages, and receiving responses.
 
 ## Features
 
 - **Model Selection**: Automatically fetches and displays available models.
-- **User-Friendly Interface**: Chat with models using an intuitive graphical interface.
-- **Asynchronous Processing**: Ensures smooth user experience by avoiding interface freezing.
-- **Custom Icon**: Adds a professional touch with a customizable application icon.
+- **User-Friendly Interface**: Chat with models using a simple graphical interface.
+- **Asynchronous Processing**: Ensures smooth user experience by avoiding that CLI confusing view.
 
 ## Requirements
 
@@ -20,8 +19,8 @@ This is a GUI-based chatbot application that allows users to interact with local
 
 1. **Clone or Download the Repository**:
    ```bash
-   git clone https://github.com/yourusername/ai-model-chat.git
-   cd ai-model-chat
+   git clone https://github.com/MohsinMalik2/ollama-gui-wrapper.git
+   cd ollama-gui-wrapper
 
 2. **Add the Icon File**:
    Place your `chatbot.ico` file in the project directory. This icon will be used for the application window and executable.
@@ -33,14 +32,14 @@ This is a GUI-based chatbot application that allows users to interact with local
 
 4. **Verify Model Installation:**
     Use the following command to check the list of installed models:
-
     ```bash
     ollama list
+    ```
 
     If no models are available, install one using:
-
     ```bash
     ollama install <model-name>
+    ```
 
     Replace <model-name> with the desired model (e.g., llama3 or qwen-2.5-coder).
 
@@ -49,9 +48,13 @@ This is a GUI-based chatbot application that allows users to interact with local
 
     ```bash
     python app.py
+    ```
     
-   Interact with the Chatbot:
+    Interact:
 
     1. Select the model you want to use from the dropdown.
     2. Type your message in the input box and press Send.
     3. View the conversation in the chat display area.
+
+
+    
